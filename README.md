@@ -19,6 +19,7 @@
 
 Dépendances : 
 - NodeJS & son écosystème (nvm, npx, npm)
+- MongoDB / MongoDB Atlas (Cloud)
 - un Package Manager (pnpm, npm, yarn)
 - Git
 - Un OS système UNIX (Validé ou non), Widows Linux Subsystem (WSL)
@@ -28,6 +29,9 @@ git clone https://github.com/intel1337/projet-entree-majordhom.git
 cd projet-entree-majordhom
 cd fullstack-app
 pnpm i / npm i / yarn i
+echo 'DATABASE_URL="VOTE_URL_MONGODB"' > fichier.env 
+pnpx / npx prisma generate
+pnpx / npx prisma db push
 pnpm run dev / npm run dev / yarn dev
 ```
 
