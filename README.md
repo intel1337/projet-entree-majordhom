@@ -7,7 +7,7 @@
 - Prénom : Taiyang
 - Age : 18ans
 - Niveau d'étude : Bac+2 Titre DWWM(RNCP 5) et (Bac+5 annulé en septembre pour raisons personelles)
-- Durée du Stage : 4-5 mois
+- Durée du Stage : 4-5 mois ?
 
 # Visuel Du Projet :
 ### Ma Version
