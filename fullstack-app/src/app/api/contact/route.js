@@ -4,7 +4,7 @@ import { prisma } from "../lib/prisma.js";
 export async function POST(req) {
   const data = await req.json();
 
-  // On suppose que tu reçois { civilite, nom, prenom, email, telephone, dispos, motif, message }
+
   try {
     const response = await prisma.contact.create({
       data: {
