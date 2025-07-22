@@ -1,6 +1,7 @@
 # Benchmark Project for an Internship
 
 > All of the assets and wireframe doesn't belong to me
+> PS : Les instructions sont en Franglais 
 
 ### Informations à propos de moi :
 - Nom : Baluc
@@ -42,7 +43,24 @@ cd database
 # If that didnt work, please do "chmod +x bootstrap_db.sh" in the /database folder
 # or execute "docker compose up"
 ```
+## Production 
 
+### Actions on a regular VPS / Local Machine
+```
+git clone https://github.com/intel1337/projet-entree-majordhom.git
+cd projet-entree-majordhom
+cd fullstack-app
+npm ci / pnpm ci # VERY IMPORTANT, PLEASE USE CI AND NOT "i" for production
+npm run build
+npm start # With Caddy port forwarding or Nginx Reverse Proxy
+```
+### Cloud Deployment 
+
+```
+# In Root Folder of fullstack-app
+vercel login
+vercel --prod
+```
 
 
 # Environnement de Travail
