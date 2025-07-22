@@ -31,3 +31,11 @@ pnpm i / npm i / yarn i
 pnpm run dev / npm run dev / yarn dev
 ```
 
+# Environnement de Travail
+
+OS : MacOS 26 // Arch Linux
+Shell : zsh & kitty terminal
+IDE : NeoVim & Lazy Vim
+Other : Whiteboard, Figma
+
+
