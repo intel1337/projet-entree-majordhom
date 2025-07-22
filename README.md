@@ -35,6 +35,15 @@ pnpx / npx prisma generate
 pnpx / npx prisma db push
 pnpm run dev / npm run dev / yarn dev
 ```
+Docker for MongoDB :
+```
+cd database
+./bootstrap_db.sh
+# If that didnt work, please do "chmod +x bootstrap_db.sh" in the /database folder
+# or execute "docker compose up"
+```
+
+
 
 # Environnement de Travail
 
