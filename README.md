@@ -33,10 +33,10 @@ pnpm run dev / npm run dev / yarn dev
 
 # Environnement de Travail
 
-OS : MacOS 26 // Arch Linux
-Shell : zsh & kitty terminal
-IDE : NeoVim & Lazy Vim
-Other : Whiteboard, Figma
+- OS : MacOS 26 // Arch Linux
+- Shell : zsh & kitty terminal
+- IDE : NeoVim & Lazy Vim
+- Other : Whiteboard, Figma
 
 # Questions :
 ## Avez-vous trouvé l'exercice facile ou vous a-t-il posé des difficultés ? Si oui, lesquelles ?
