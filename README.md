@@ -7,7 +7,7 @@
 - Prénom : Taiyang
 - Age : 18ans
 - Niveau d'étude : Bac+2 Titre DWWM(RNCP 5) et (Bac+5 annulé en septembre pour raisons personelles)
-- Durée du Stage : 4-5 mois
+- Durée du Stage : 4-5 mois ?
 
 # Visuel Du Projet :
 ### Ma Version
@@ -35,6 +35,15 @@ pnpx / npx prisma generate
 pnpx / npx prisma db push
 pnpm run dev / npm run dev / yarn dev
 ```
+Docker for MongoDB :
+```
+cd database
+./bootstrap_db.sh
+# If that didnt work, please do "chmod +x bootstrap_db.sh" in the /database folder
+# or execute "docker compose up"
+```
+
+
 
 # Environnement de Travail
 
