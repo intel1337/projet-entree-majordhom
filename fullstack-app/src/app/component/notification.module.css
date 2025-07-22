@@ -1,6 +1,8 @@
 .success {
+    position: absolute;
+    z-index: 2;
   background: #e6fbe6;
-  color: #217a21;
+  color: #1b661b;
   border-radius: 16px;
   padding: 16px 32px;
   margin: 24px auto 0 auto;
@@ -13,8 +15,10 @@
 }
 
 .error {
+    position: absolute;
+
   background: #ffeaea;
-  color: #b71c1c;
+  color: #660e0e;
   border-radius: 16px;
   padding: 16px 32px;
   margin: 24px auto 0 auto;
