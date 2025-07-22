@@ -65,6 +65,7 @@ export default function Landing() {
                 <CoordonneesForm onChange={setCoordonnees} />
               </div>
             </div>
+            
             <div className={styles.messageContainer}>
               <MessageComponent onChange={setMessage} />
             </div>
