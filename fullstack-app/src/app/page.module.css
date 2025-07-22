@@ -83,9 +83,9 @@
   
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1158px) {
   .hero-content {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr;
     gap: 16px;
   }
   .form, .messageContainer {
@@ -100,5 +100,30 @@
     margin-right: 0;
     grid-column: auto;
 
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+  }
+  .form, .messageContainer {
+    margin: 0;
+    width: 100%;
+    border-radius: 16px;
+    padding: 16px;
+    min-width: 0;
+  }
+  .submitBtn {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 16px;
+    grid-column: auto;
+    border-radius: 16px;
+    font-size: 1.1rem;
   }
 }

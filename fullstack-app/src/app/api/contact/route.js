@@ -3,8 +3,6 @@ import { prisma } from "../lib/prisma.js";
 
 export async function POST(req) {
   const data = await req.json();
-
-
   try {
     const response = await prisma.contact.create({
       data: {

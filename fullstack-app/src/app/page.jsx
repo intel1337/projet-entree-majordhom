@@ -7,7 +7,7 @@ import Notification from './component/Notification'
 import React, { useState } from 'react';
 
 export default function Landing() {
-  const apos = "'"
+  const apos = "'" // Apostrophe
   const [coordonnees, setCoordonnees] = useState({});
   const [message, setMessage] = useState({}); 
   const [loading, setLoading] = useState(false);
