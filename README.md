@@ -1,6 +1,7 @@
 # Benchmark Project for an Internship
 
 > All of the assets and wireframe doesn't belong to me
+> PS : Les instructions sont en Franglais 
 
 ### Informations à propos de moi :
 - Nom : Baluc
