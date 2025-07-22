@@ -38,4 +38,25 @@ Shell : zsh & kitty terminal
 IDE : NeoVim & Lazy Vim
 Other : Whiteboard, Figma
 
+# Questions :
+## Avez-vous trouvé l'exercice facile ou vous a-t-il posé des difficultés ? Si oui, lesquelles ?
+Pour moi l'exercice était facile, la seule difficulté rencontrée c'était le css des boutons radios.
+
+
+## Avez-vous appris de nouveaux outils pour répondre à l'exercice ? Si oui, lesquels ?
+Oui, Framer Motion pour des animations React comme angular Materials ou Storybook avec Svelte.
+
+## Pourquoi avoir choisi d'utiliser ces outils ?
+J'ai choisi NextJS pour le SSR natif et ses bénéfices en réferencement, étant une page contact le management du SEO doit être minucieusement géré, j'ai utilisé MongoDB étant plus adapté à des demandes de contact, comme Aucune relation n'était nécessaire, sur le plan Scalablité MongoDB reste supérieur dans ce cas précis, les inconvénients seront géré par le backend qui formatteras la donnée afin d'assurer une structure stable et organisé dans la base de donnée. j'ai aussi utilisé Prisma car c'est un ORM presque natif de NextJS tellement l'alchimie entre ces 2 "frameworks" est positive. Enfin pour conclure j'ai choisi une architecture Full stack avec un écosystème accordé au framework full stack utilisé, en loccurence NextJS. 
+
+## Avez-vous utilisé la stack proposée ? Utilisez-vous régulièrement docker ?
+Non je n'ai pas choisi l'architecture proposée, car même si elle est majoritairement répandue les nouvelles technologies permettent plus de liberté (Sauf en cas de Php frameworkless).
+Aussi personellement j'Utilise Nginx ou Caddy au lieu de Apache, la configuration étant plus adaptée et facile à prendre en main. Concernant le SQL j'ai fais part de mes raisons ci dessus. 
+
+Est ce que j'utilise Docker ? Oui tout les jours tout le temps, Docker me permet de tester des projets web ou d'en commencer sans me soucier du problême de cross-compatibilité ou de performances. J'utilise parfois kubernetes (k8s & minikube) qui ont besoin d'un driver et d'un gestionnaire de container (Docker, Container de Apple) pour pouvoir les ordonnancer.
+En Revanche je n'utilise pas Docker Compose sauf en environnement de developpement, Docker Compose étant souvent utilisé en production alors qu'il n'est pas voué à cette usage principalement. De même pour Docker Swarm, étant un utilisateur et fervant supporter de kubernetes et son environnement (Docker, minikube / k3s, prometheus, jenkins) je prêfere utiliser k8s sauf que les cas d'utilisation demande Docker Swarm.
+
+
+
+
 
