@@ -1,13 +1,17 @@
-"use client"
+"use client" 
+
+
 
 import React, { useState, useEffect } from "react";
 import styles from "./coordonnees.module.css";
 
+// Options Locales pour éviter une dépendance externe
 const jours = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"];
 const heures = ["7h", "8h", "9h", "10h", "11h", "12h", "13h", "14h", "15h", "16h", "17h", "18h"];
 const minutes = ["0m", "15m", "30m", "45m"];
 
 export default function CoordonneesForm({ onChange }) {
+  // State & Hooks du Form
   const [civilite, setCivilite] = useState("mme");
   const [nom, setNom] = useState("");
   const [prenom, setPrenom] = useState("");
@@ -26,7 +30,7 @@ export default function CoordonneesForm({ onChange }) {
   }, [civilite, nom, prenom, email, telephone, dispos, onChange]);
 
   function ajouterDispo() {
-    setDispos([...dispos, `${jour} à ${heure}${minute !== "0m" ? minute : ""}`]);
+    setDispos([...dispos, `${jour} à ${heure}${minute !== "0m" ? minute : ""}`]); // Formatisation du tableau de Disponibilitées.
   }
 
   function supprimerDispo(index) {
@@ -75,6 +79,7 @@ export default function CoordonneesForm({ onChange }) {
           onChange={e => setPrenom(e.target.value)}
         />
       </div>
+      {/*Contact*/}
       <input
         className={styles.inputField}
         type="email"

@@ -3,6 +3,8 @@
 import React, { useState, useEffect } from "react";
 import style from "./message.module.css"
 
+
+
 const motifs = [
   { value: "visite", label: "Demande de visite" },
   { value: "rappel", label: "Être rappelé/e" },
@@ -10,6 +12,7 @@ const motifs = [
 ];
 
 export default function MessageComponent({ onChange }) {
+  // Hooks & States
   const [motif, setMotif] = useState("visite");
   const [message, setMessage] = useState("");
 
