@@ -62,6 +62,10 @@ vercel login
 vercel --prod
 ```
 
+# CI
+- workflow github building and retrieving dependencies
+  
+
 
 # Environnement de Travail
 
